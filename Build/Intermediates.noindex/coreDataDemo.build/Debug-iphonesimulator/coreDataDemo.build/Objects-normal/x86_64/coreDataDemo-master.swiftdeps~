@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "e58398dca754d8b6367e3ae0f28f79ee77cdf1932208036ce79a473c3f445056"
+build_start_time: [1717665681, 563765048]
+build_end_time: [1717665681, 629297971]
+inputs:
+  "/Users/msc_india/Desktop/coreDataDemo/Employee+CoreDataClass.swift": !private [1717663700, 848379611]
+  "/Users/msc_india/Desktop/coreDataDemo/Employee+CoreDataProperties.swift": !private [1717663700, 855021953]
+  "/Users/msc_india/Desktop/coreDataDemo/coreDataDemo/AppDelegate.swift": !private [1717665676, 874333381]
+  "/Users/msc_india/Desktop/coreDataDemo/coreDataDemo/PersistentStorage.swift": !private [1717665676, 832846164]
+  "/Users/msc_india/Desktop/coreDataDemo/coreDataDemo/SceneDelegate.swift": !private [1717665676, 795569419]
+  "/Users/msc_india/Desktop/coreDataDemo/coreDataDemo/ViewController.swift": !private [1717665676, 770082235]

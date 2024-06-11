@@ -14,6 +14,9 @@
 		D38B5F782C11AE7E009EFD95 /* coreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D38B5F762C11AE7E009EFD95 /* coreDataDemo.xcdatamodeld */; };
 		D38B5F7A2C11AE82009EFD95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38B5F792C11AE82009EFD95 /* Assets.xcassets */; };
 		D38B5F7D2C11AE82009EFD95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38B5F7B2C11AE82009EFD95 /* LaunchScreen.storyboard */; };
+		D38B5F862C11AF55009EFD95 /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B5F842C11AF55009EFD95 /* Employee+CoreDataClass.swift */; };
+		D38B5F872C11AF55009EFD95 /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B5F852C11AF55009EFD95 /* Employee+CoreDataProperties.swift */; };
+		D38B5F892C11B1AF009EFD95 /* PersistentStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38B5F882C11B1AF009EFD95 /* PersistentStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D38B5F792C11AE82009EFD95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D38B5F7C2C11AE82009EFD95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D38B5F7E2C11AE82009EFD95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38B5F842C11AF55009EFD95 /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D38B5F852C11AF55009EFD95 /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D38B5F882C11B1AF009EFD95 /* PersistentStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		D38B5F6C2C11AE7E009EFD95 /* coreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D38B5F842C11AF55009EFD95 /* Employee+CoreDataClass.swift */,
+				D38B5F852C11AF55009EFD95 /* Employee+CoreDataProperties.swift */,
 				D38B5F6D2C11AE7E009EFD95 /* AppDelegate.swift */,
 				D38B5F6F2C11AE7E009EFD95 /* SceneDelegate.swift */,
 				D38B5F712C11AE7E009EFD95 /* ViewController.swift */,
@@ -66,6 +74,7 @@
 				D38B5F7B2C11AE82009EFD95 /* LaunchScreen.storyboard */,
 				D38B5F7E2C11AE82009EFD95 /* Info.plist */,
 				D38B5F762C11AE7E009EFD95 /* coreDataDemo.xcdatamodeld */,
+				D38B5F882C11B1AF009EFD95 /* PersistentStorage.swift */,
 			);
 			path = coreDataDemo;
 			sourceTree = "<group>";
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D38B5F722C11AE7E009EFD95 /* ViewController.swift in Sources */,
+				D38B5F872C11AF55009EFD95 /* Employee+CoreDataProperties.swift in Sources */,
 				D38B5F782C11AE7E009EFD95 /* coreDataDemo.xcdatamodeld in Sources */,
 				D38B5F6E2C11AE7E009EFD95 /* AppDelegate.swift in Sources */,
+				D38B5F862C11AF55009EFD95 /* Employee+CoreDataClass.swift in Sources */,
 				D38B5F702C11AE7E009EFD95 /* SceneDelegate.swift in Sources */,
+				D38B5F892C11B1AF009EFD95 /* PersistentStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
